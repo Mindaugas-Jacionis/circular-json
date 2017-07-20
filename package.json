@@ -22,7 +22,7 @@
     "type": "git",
     "url": "git://github.com/WebReflection/circular-json.git"
   },
-  "main": "./build/circular-json.node.js",
+  "main": "./build/circular-json.js",
   "scripts": {
     "test": "istanbul cover test/circular-json.js",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
